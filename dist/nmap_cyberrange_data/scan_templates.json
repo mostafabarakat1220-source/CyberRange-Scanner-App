@@ -1,0 +1,16 @@
+{
+    "Quick Scan": [
+        "-T0",
+        "-F"
+    ],
+    "Intense Scan": [
+        "-T4",
+        "-A",
+        "-v"
+    ],
+    "Vuln Scan": [
+        "-T4",
+        "--script",
+        "vuln"
+    ]
+}
