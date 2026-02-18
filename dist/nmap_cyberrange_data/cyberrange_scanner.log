@@ -1,71 +1,52 @@
-[2026-02-14 14:52:18] [INFO] Application started.
-[2026-02-14 14:52:19] [INFO] Initializing database at C:\Users\MostafaBrakat\CyberRangeScanner\dist\nmap_cyberrange_data\cyberrange.db
-[2026-02-14 14:52:19] [INFO] Database initialization complete.
-[2026-02-14 14:52:19] [INFO] ScanThread initialized for target: , type: , flags: []
-[2026-02-14 14:52:19] [INFO] Loading data for DevicesPage.
-[2026-02-14 14:52:19] [INFO] Populating table with 2 rows.
-[2026-02-14 14:52:19] [INFO] Table population complete.
-[2026-02-14 14:52:19] [INFO] DevicesPage loaded 2 records.
-[2026-02-14 14:52:19] [INFO] Loading data for VulnerabilitiesPage.
-[2026-02-14 14:52:19] [INFO] Populating table with 6 rows.
-[2026-02-14 14:52:19] [INFO] Table population complete.
-[2026-02-14 14:52:19] [INFO] VulnerabilitiesPage loaded 6 records.
-[2026-02-14 14:52:19] [INFO] Loading data for ReportsPage.
-[2026-02-14 14:52:19] [INFO] Populating table with 5 rows.
-[2026-02-14 14:52:19] [INFO] Table population complete.
-[2026-02-14 14:52:19] [INFO] ReportsPage loaded 5 records.
-[2026-02-14 14:52:19] [INFO] Loading templates to UI.
-[2026-02-14 14:52:19] [INFO] Loaded details for template: Quick Scan
-[2026-02-14 14:52:19] [INFO] Loaded details for template: Quick Scan
-[2026-02-14 14:52:19] [INFO] Templates loaded to UI.
-[2026-02-14 14:52:20] [INFO] Dashboard stats updated: {'Total Scans': 5, 'Discovered Devices': 2, 'Live Hosts': 2, 'Vulnerabilities Found': 6}
-[2026-02-14 14:53:17] [INFO] Initiating scan for target: www.google.com with command parts: ['www.google.com', '-T0', '-F', '-O']
-[2026-02-14 14:53:17] [INFO] ScanThread initialized for target: www.google.com, type: Quick Scan, flags: ['www.google.com', '-T0', '-F', '-O']
-[2026-02-14 14:53:17] [INFO] Starting ScanThread for target: www.google.com, type: Quick Scan, flags: ['www.google.com', '-T0', '-F', '-O']
-[2026-02-14 14:53:17] [INFO] Executing Nmap command: nmap -v --stats-every 1s www.google.com www.google.com -T0 -F -O
-[2026-02-14 14:54:02] [INFO] Initiating scan for target: 172.27.55.52 with command parts: ['172.27.55.52', '-T0', '-F', '-O']
-[2026-02-14 14:54:02] [INFO] ScanThread initialized for target: 172.27.55.52, type: Quick Scan, flags: ['172.27.55.52', '-T0', '-F', '-O']
-[2026-02-14 14:54:02] [INFO] Starting ScanThread for target: 172.27.55.52, type: Quick Scan, flags: ['172.27.55.52', '-T0', '-F', '-O']
-[2026-02-14 14:54:02] [INFO] Executing Nmap command: nmap -v --stats-every 1s 172.27.55.52 172.27.55.52 -T0 -F -O
-[2026-02-14 15:06:38] [INFO] Application started.
-[2026-02-14 15:06:38] [INFO] Initializing database at C:\Users\MostafaBrakat\CyberRangeScanner\dist\nmap_cyberrange_data\cyberrange.db
-[2026-02-14 15:06:38] [INFO] Database initialization complete.
-[2026-02-14 15:06:38] [INFO] ScanThread initialized for target: , type: , flags: []
-[2026-02-14 15:06:38] [INFO] Loading data for DevicesPage.
-[2026-02-14 15:06:38] [INFO] Populating table with 2 rows.
-[2026-02-14 15:06:38] [INFO] Table population complete.
-[2026-02-14 15:06:38] [INFO] DevicesPage loaded 2 records.
-[2026-02-14 15:06:38] [INFO] Loading data for VulnerabilitiesPage.
-[2026-02-14 15:06:38] [INFO] Populating table with 6 rows.
-[2026-02-14 15:06:38] [INFO] Table population complete.
-[2026-02-14 15:06:38] [INFO] VulnerabilitiesPage loaded 6 records.
-[2026-02-14 15:06:38] [INFO] Loading data for ReportsPage.
-[2026-02-14 15:06:38] [INFO] Populating table with 5 rows.
-[2026-02-14 15:06:38] [INFO] Table population complete.
-[2026-02-14 15:06:38] [INFO] ReportsPage loaded 5 records.
-[2026-02-14 15:06:38] [INFO] Loading templates to UI.
-[2026-02-14 15:06:38] [INFO] Loaded details for template: Quick Scan
-[2026-02-14 15:06:38] [INFO] Loaded details for template: Quick Scan
-[2026-02-14 15:06:38] [INFO] Templates loaded to UI.
-[2026-02-14 15:06:39] [INFO] Dashboard stats updated: {'Total Scans': 5, 'Discovered Devices': 2, 'Live Hosts': 2, 'Vulnerabilities Found': 6}
-[2026-02-14 15:10:09] [INFO] Application started.
-[2026-02-14 15:10:09] [INFO] Initializing database at C:\Users\MostafaBrakat\CyberRangeScanner\dist\nmap_cyberrange_data\cyberrange.db
-[2026-02-14 15:10:09] [INFO] Database initialization complete.
-[2026-02-14 15:10:09] [INFO] ScanThread initialized for target: , type: , flags: []
-[2026-02-14 15:10:09] [INFO] Loading data for DevicesPage.
-[2026-02-14 15:10:09] [INFO] Populating table with 2 rows.
-[2026-02-14 15:10:09] [INFO] Table population complete.
-[2026-02-14 15:10:09] [INFO] DevicesPage loaded 2 records.
-[2026-02-14 15:10:09] [INFO] Loading data for VulnerabilitiesPage.
-[2026-02-14 15:10:09] [INFO] Populating table with 6 rows.
-[2026-02-14 15:10:09] [INFO] Table population complete.
-[2026-02-14 15:10:09] [INFO] VulnerabilitiesPage loaded 6 records.
-[2026-02-14 15:10:09] [INFO] Loading data for ReportsPage.
-[2026-02-14 15:10:09] [INFO] Populating table with 5 rows.
-[2026-02-14 15:10:09] [INFO] Table population complete.
-[2026-02-14 15:10:09] [INFO] ReportsPage loaded 5 records.
-[2026-02-14 15:10:09] [INFO] Loading templates to UI.
-[2026-02-14 15:10:09] [INFO] Loaded details for template: Quick Scan
-[2026-02-14 15:10:09] [INFO] Loaded details for template: Quick Scan
-[2026-02-14 15:10:09] [INFO] Templates loaded to UI.
-[2026-02-14 15:10:10] [INFO] Dashboard stats updated: {'Total Scans': 5, 'Discovered Devices': 2, 'Live Hosts': 2, 'Vulnerabilities Found': 6}
+[2026-02-18 03:05:50] [INFO] Application started.
+[2026-02-18 03:05:50] [INFO] Initializing database at C:\Users\MostafaBrakat\CyberRangeScanner\dist\nmap_cyberrange_data\cyberrange.db
+[2026-02-18 03:05:51] [INFO] Database initialization complete.
+[2026-02-18 03:05:51] [INFO] ScanThread initialized for target: , type: , flags: []
+[2026-02-18 03:05:51] [INFO] Loading data for DevicesPage.
+[2026-02-18 03:05:51] [INFO] Populating table with 0 rows.
+[2026-02-18 03:05:51] [INFO] Table population complete.
+[2026-02-18 03:05:51] [INFO] DevicesPage loaded 0 records.
+[2026-02-18 03:05:51] [INFO] Loading data for VulnerabilitiesPage.
+[2026-02-18 03:05:51] [INFO] Populating table with 0 rows.
+[2026-02-18 03:05:51] [INFO] Table population complete.
+[2026-02-18 03:05:51] [INFO] VulnerabilitiesPage loaded 0 records.
+[2026-02-18 03:05:51] [INFO] Loading data for ReportsPage.
+[2026-02-18 03:05:51] [INFO] Populating table with 0 rows.
+[2026-02-18 03:05:51] [INFO] Table population complete.
+[2026-02-18 03:05:51] [INFO] ReportsPage loaded 0 records.
+[2026-02-18 03:05:51] [INFO] Loading templates to UI.
+[2026-02-18 03:05:51] [INFO] Loaded details for template: Quick Scan
+[2026-02-18 03:05:51] [INFO] Loaded details for template: Quick Scan
+[2026-02-18 03:05:51] [INFO] Templates loaded to UI.
+[2026-02-18 03:05:51] [INFO] Dashboard stats updated: {'Total Scans': 0, 'Discovered Devices': 0, 'Live Hosts': 0, 'Vulnerabilities Found': 0}
+[2026-02-18 03:06:35] [INFO] Initiating scan for target: 192.168.137.1 with command parts: ['192.168.137.1', '-T4', '--script', 'vuln', '-O']
+[2026-02-18 03:06:35] [INFO] ScanThread initialized for target: 192.168.137.1, type: Vuln Scan, flags: ['192.168.137.1', '-T4', '--script', 'vuln', '-O']
+[2026-02-18 03:06:35] [INFO] Starting ScanThread for target: 192.168.137.1, type: Vuln Scan, flags: ['192.168.137.1', '-T4', '--script', 'vuln', '-O']
+[2026-02-18 03:06:35] [INFO] Executing Nmap command: nmap -v --stats-every 1s 192.168.137.1 192.168.137.1 -T4 --script vuln -O
+[2026-02-18 03:07:15] [INFO] Nmap scan process finished.
+[2026-02-18 03:07:15] [INFO] Scan finished, processing results.
+[2026-02-18 03:07:15] [ERROR] Scan on 192.168.137.1 finished with errors or incomplete results.
+[2026-02-18 03:07:15] [INFO] Scan results for 192.168.137.1 saved to DB.
+[2026-02-18 03:07:15] [INFO] Dashboard stats updated: {'Total Scans': 1, 'Discovered Devices': 0, 'Live Hosts': 0, 'Vulnerabilities Found': 0}
+[2026-02-18 03:07:15] [INFO] Loading data for DevicesPage.
+[2026-02-18 03:07:15] [INFO] Populating table with 0 rows.
+[2026-02-18 03:07:15] [INFO] Table population complete.
+[2026-02-18 03:07:15] [INFO] DevicesPage loaded 0 records.
+[2026-02-18 03:07:15] [INFO] Loading data for VulnerabilitiesPage.
+[2026-02-18 03:07:15] [INFO] Populating table with 0 rows.
+[2026-02-18 03:07:15] [INFO] Table population complete.
+[2026-02-18 03:07:15] [INFO] VulnerabilitiesPage loaded 0 records.
+[2026-02-18 03:07:15] [INFO] Loading data for ReportsPage.
+[2026-02-18 03:07:15] [INFO] Populating table with 1 rows.
+[2026-02-18 03:07:15] [INFO] Table population complete.
+[2026-02-18 03:07:15] [INFO] ReportsPage loaded 1 records.
+[2026-02-18 03:07:15] [INFO] Starting Nmap output parsing.
+[2026-02-18 03:07:15] [INFO] Processing Nmap report for new host: 192.168.137.1
+[2026-02-18 03:07:15] [INFO] Saving previous device 192.168.137.1 details (MAC: None, OS: None).
+[2026-02-18 03:07:15] [INFO] Device 192.168.137.1 details saved/updated successfully.
+[2026-02-18 03:07:15] [INFO] Processing Nmap report for new host: 192.168.137.1
+[2026-02-18 03:07:15] [INFO] Final save for device 192.168.137.1 (MAC: None, OS: None).
+[2026-02-18 03:07:15] [INFO] Nmap output parsing complete and changes committed.
+[2026-02-18 03:07:15] [INFO] Dashboard stats updated: {'Total Scans': 1, 'Discovered Devices': 1, 'Live Hosts': 1, 'Vulnerabilities Found': 0}
+[2026-02-18 03:07:15] [INFO] Finished scan completion handler.
+[2026-02-18 03:08:08] [INFO] Application exited.

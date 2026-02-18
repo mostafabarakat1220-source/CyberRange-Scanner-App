@@ -7,7 +7,8 @@ APP_NAME = "CyberRangeScanner"
 SCRIPT_FILE = "cyberrange_scanner.py"
 ICON_FILE = "icon.ico"
 DATA_FILES = [
-    ('icons', 'icons')
+    ('icons', 'icons'),
+    ('icon.ico', '.')
 ]
 
 # --- Build Paths ---

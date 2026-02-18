@@ -1105,5 +1105,20 @@ if __name__ == "__main__":
         # QMessageBox.critical(None, "Nmap Not Found", "Nmap executable not found in PATH. Scans will fail.\nPlease install Nmap from https://nmap.org and add it to your system's PATH.")
         log_message("Nmap executable not found in PATH.", "WARNING")
         pass # The ScanThread will handle this
-    app = QApplication(sys.argv); window = MainWindow(); window.show(); sys.exit(app.exec())
+    app = QApplication(sys.argv)
+    # Set application icon (use icon.ico located in project root or bundled _MEIPASS when frozen)
+    try:
+        if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+            base_path = Path(sys._MEIPASS)
+        else:
+            base_path = Path(__file__).parent
+        app_icon_path = base_path / "icon.ico"
+        if app_icon_path.exists():
+            app.setWindowIcon(QIcon(str(app_icon_path)))
+    except Exception:
+        pass
+    window = MainWindow()
+    window.show()
+    exit_code = app.exec()
     log_message("Application exited.")
+    sys.exit(exit_code)

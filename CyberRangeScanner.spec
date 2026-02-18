@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['c:\\Users\\MostafaBrakat\\CyberRangeScanner\\cyberrange_scanner.py'],
+    ['C:\\Users\\MostafaBrakat\\CyberRangeScanner\\cyberrange_scanner.py'],
     pathex=[],
     binaries=[],
-    datas=[('c:\\Users\\MostafaBrakat\\CyberRangeScanner\\icons', 'icons')],
+    datas=[('C:\\Users\\MostafaBrakat\\CyberRangeScanner\\icons', 'icons'), ('C:\\Users\\MostafaBrakat\\CyberRangeScanner\\icon.ico', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['c:\\Users\\MostafaBrakat\\CyberRangeScanner\\icon.ico'],
+    icon=['C:\\Users\\MostafaBrakat\\CyberRangeScanner\\icon.ico'],
 )
